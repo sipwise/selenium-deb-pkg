@@ -1,0 +1,5 @@
+selenium-server (2.18.0-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Michael Prokop <mika@debian.org>  Sat, 18 Feb 2012 17:49:56 +0100

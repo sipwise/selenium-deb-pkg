@@ -1,0 +1,21 @@
+Source: selenium-server
+Section: web
+Priority: extra
+Maintainer: Michael Prokop <mika@debian.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://github.com/mika/selenium-deb-pkg
+Vcs-Git: git://github.com/mika/selenium-deb-pkg.git
+Vcs-Browser: https://github.com/mika/selenium-deb-pkg
+
+Package: selenium-server
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, java-runtime-headless | openjdk-6-jre-headless | sun-java6-jre
+Description: automated web application testing system
+ Selenium automates browsers. Primarily it is for automating web
+ applications for testing purposes, but is certainly not limited
+ to just that. Boring web-based administration tasks can (and
+ should!) also be automated as well.
+ .
+ The Selenium Server is needed in order to run either Selenium RC
+ style scripts or Remote Selenium Webdriver ones.

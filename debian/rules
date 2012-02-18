@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_build:
+	./download.sh
+
+override_dh_auto_clean:
+	rm -f selenium-server.jar
+	rm -f selenium-server-standalone-*.jar
