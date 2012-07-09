@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/mika/selenium-deb-pkg
 
 Package: selenium-server
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, java-runtime-headless | openjdk-6-jre-headless | sun-java6-jre
+Depends: ${shlibs:Depends}, ${misc:Depends}, sun-java6-jre | java-runtime-headless | openjdk-7-jre-headless | openjdk-6-jre-headless
 Description: automated web application testing system
  Selenium automates browsers. Primarily it is for automating web
  applications for testing purposes, but is certainly not limited
