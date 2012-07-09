@@ -3,7 +3,7 @@ Section: web
 Priority: extra
 Maintainer: Michael Prokop <mika@debian.org>
 Build-Depends: debhelper (>= 8.0.0), wget
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: https://github.com/mika/selenium-deb-pkg
 Vcs-Git: git://github.com/mika/selenium-deb-pkg.git
 Vcs-Browser: https://github.com/mika/selenium-deb-pkg
