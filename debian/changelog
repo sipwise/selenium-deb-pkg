@@ -1,3 +1,11 @@
+selenium-server (2.24.1-1) unstable; urgency=low
+
+  * New upstream release
+  * Bump Standards-Version to 3.9.3
+  * Switch order of JRE depends + add openjdk-7-jre-headless as alternative
+
+ -- Michael Prokop <mprokop@sipwise.com>  Mon, 09 Jul 2012 16:43:25 +0200
+
 selenium-server (2.18.0-1) unstable; urgency=low
 
   * Initial release.
