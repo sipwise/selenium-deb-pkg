@@ -1,3 +1,9 @@
+selenium-server (2.25.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Michael Prokop <mprokop@sipwise.com>  Mon, 20 Aug 2012 16:12:32 +0200
+
 selenium-server (2.24.1-1) unstable; urgency=low
 
   * New upstream release
