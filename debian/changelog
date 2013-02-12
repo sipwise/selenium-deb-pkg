@@ -1,3 +1,10 @@
+selenium-server (2.28.0-1) unstable; urgency=low
+
+  * [e0939ac] Update for new upstream release 2.28.0
+  * [d471f43] Bump Standards-Version to 3.9.4
+
+ -- Michael Prokop <mprokop@sipwise.com>  Tue, 12 Feb 2013 12:43:16 +0100
+
 selenium-server (2.25.0-1) unstable; urgency=low
 
   * New upstream release
