@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if ! . ./CONFIG ; then
   echo "Error sourcing configuration file CONFIG" >&2
   exit 1
@@ -7,6 +9,7 @@ fi
 if [ -n "$1" ] ; then
   version="$1"
 fi
+
 
 echo "Using selenium version $version (override via file CONFIG)"
 
@@ -27,8 +30,11 @@ if [ -r "$jar" ] ; then
   exit 0
 fi
 
+# release 2.40.0 is available in directory 2.40
+minor_version=${version%.[0-9]}
+
 echo "Downloading $jar (might take a while...)"
-if wget --no-verbose -O "$jar" "http://selenium.googlecode.com/files/${jar}" ; then
+if wget --no-verbose -O "$jar" "http://selenium-release.storage.googleapis.com/${minor_version}/${jar}" ; then
   echo OK
 else
   echo "ERROR" >&2
