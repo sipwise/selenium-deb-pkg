@@ -1,3 +1,12 @@
+selenium-server (2.40.0-1) unstable; urgency=medium
+
+  * [7116159] Update for new upstream release 2.40.0
+  * [0d4e306] Bump Standards-Version to 3.9.5
+  * [7219245] Run wrap-and-sort on debian/
+  * [97f07f6] Adapt download.sh for new download URL
+
+ -- Michael Prokop <mprokop@sipwise.com>  Wed, 26 Feb 2014 10:21:17 +0100
+
 selenium-server (2.28.0-1) unstable; urgency=low
 
   * [e0939ac] Update for new upstream release 2.28.0
