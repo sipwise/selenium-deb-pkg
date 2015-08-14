@@ -1,3 +1,12 @@
+selenium-server (2.47.1-1) unstable; urgency=medium
+
+  * [c3386ad] MT#9127 Bump Standards-Version to 3.9.6
+  * [dd72436] Drop outdated sun-java6-jre + openjdk-6-jre-headless from
+    Depends
+  * [b5ee799] Bump selenium-server version to 2.47.1
+
+ -- Michael Prokop <mprokop@sipwise.com>  Fri, 14 Aug 2015 17:22:55 +0200
+
 selenium-server (2.40.0-1) unstable; urgency=medium
 
   * [7116159] Update for new upstream release 2.40.0
